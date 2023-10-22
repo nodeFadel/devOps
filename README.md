@@ -1,10 +1,10 @@
 # devOps
 Creating, developing and monitoring CI/CD for my project.
 
-### Starting my new project with different tools and aws as well.
+## Starting my new project with different tools and aws as well.
 This project coming soon after finishing my epics preparation and planning...
 
-### Best Linux commands:
+## Best Linux commands:
 - sed -i 's/word-to-change/new-word/g'  <file-name>
 - (-F) very nice for logging ex: tail -F <filename> (to see the direct changes not just printing last lines).
 
@@ -31,11 +31,11 @@ This project coming soon after finishing my epics preparation and planning...
 
 - Archiving:
     - Test with tar:
-    - Compress: tar -czvf (copy,compress,verbose, file) jenkins_timestamp06122020.tar.gz jenkins
-    - Extract: tar -xzvf messages_archiv_testing_22102023.tar.gz
-    - Extract in another place: tar -xzvf messages_archiv_testing_22102023.tar.gz -C /opt/
+        - Compress: tar -czvf (copy,compress,verbose, file) jenkins_timestamp06122020.tar.gz jenkins
+        - Extract: tar -xzvf messages_archiv_testing_22102023.tar.gz
+        - Extract in another place: tar -xzvf messages_archiv_testing_22102023.tar.gz -C /opt/
 
     - Test with zip and unzip instead for tar:
-    - first: yum install zip unzip -y
-    - Compress: zip -r messages_22102023.zip messages
-    - Extract: unzip messages_22102023.zip 
+        - first: yum install zip unzip -y
+        - Compress: zip -r messages_22102023.zip messages
+        - Extract: unzip messages_22102023.zip 
