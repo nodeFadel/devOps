@@ -33,3 +33,24 @@
         - first: yum install zip unzip -y
         - Compress: zip -r messages_22102023.zip messages
         - Extract: unzip messages_22102023.zip 
+
+# Ubuntu Commands
+- adduser <user-name>
+- If you want to edit visudo then nano shell would be open, do this: export EDITOR=vim
+that would open edited file everytime with vim but if you logged out-in then do it again.
+- To download the tree package for debian package for ubuntu:
+    - wget http://archive.ubuntu.com/ubuntu/pool/universe/t/tree/tree_1.8.0-1_amd64.deb
+    - ls to see yhe package then install it with: dpkg -i <package>
+    - tree (to list the current directory files in a tree shape).
+    - dpkg -l (all the debian list in your machine).
+    - dpkg -l | grep tree
+    - dpkg -r tree  (to remove the package).
+    - In redhat machine there is yum while here there is apt:
+        - cd /etc/apt/   --> cat source.list (to see the repository information).
+        - apt search tree (to search for package name tree)
+        - apt install apache2 (instad of httpd in redhat)
+        - remove clean with iformationa and data: apt purge apache2
+## The biggest difference between the two Linux distribution is that Ubuntu is based on the Debian architecture while CentOS is forked from Red Hat Enterprise Linux.
+
+## apt command in ubuntu and yum in centos to manage packages
+## Default text editor in ubuntu is nano, if you want to temporarily set vim as default editor then run below command. export EDITOR=vim
