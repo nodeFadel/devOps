@@ -1,4 +1,4 @@
-# Create a virtual machine centos 
+# Website setup on a virtual machine centos 
     - create folder <new-folder i called it finance> then cd finance.
     - run: vagrant box list   (to see the eurolinux-vagrant/centos-stream-9 (virtualbox, 9.0.29) in the list).
     - create the virtual machine: vagrant init eurolinux-vagrant/centos-stream-9.
