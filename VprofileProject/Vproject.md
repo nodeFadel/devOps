@@ -42,16 +42,31 @@
     - vagrant ssh (to every machine and test to ping to other services try: cat /etc/hosts in every machine )
 
 #  MYSQL Setup
+    Login to the db vm
+    - vagrant ssh db01
+
+    Verify Hosts entry, if entries missing update the it with IP and hostnames
+    - cat /etc/hosts
+
+    Update OS with latest patches
     - yum update -y  (update os with last patches)
+
+    Set Repository
     - yum install epel-release -y  ( Set repository to get access to more packages)
-    - yum install git mariadb-server -y (Install Maria Database Pa1ckage )
-    - systemctl start mariadb   (Start and enabling mariadb-server)
+
+    Install Maria DB Package
+    - yum install git mariadb-server -y
+
+    Starting & enabling mariadb-server
+    - systemctl start mariadb
     - systemctl enable mariadb
 
-    - mysql_secure_installation   (RUN mysql secure installation script) prompts-questions --> Y, Y, n, Y, Y.
+    RUN mysql secure installation script
+    - mysql_secure_installation  -->> prompts-questions --> Y, Y, n, Y, Y.
 
     ** Till now:  The service is up and running we need to setup the database, service is created but the database is not created yet.
 
+    Set DB name and users.
     - mysql -u root -padmin123  (Set DB name and users **Remark no space between -padmin123)
     - mysql > create database accounts;
     - mysql > grant all privileges on accounts. * TO 'admin'@'%' identified by 'admin123';
