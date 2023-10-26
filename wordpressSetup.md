@@ -1,4 +1,4 @@
-# Creating wordpress setup
+# Creating wordpress setup on ubuntu 20 
     To get more closely to wordpress, visit this link that cover how wordpress should be install and configure: https://ubuntu.com/tutorials/install-and-configure-wordpress#6-configure-wordpress-to-connect-to-the-database
 
     - installing dependencies
