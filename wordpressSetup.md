@@ -11,8 +11,9 @@
 Once you grasp the info about installation and configuration go to vagrant box and search for ubuntu 20 and you can use ubuntu/focal64:
     - You should see this:
         - Vagrant.configure("2") do |config|
-            config.vm.box = "ubuntu/focal64"    # copy ubuntu/focal64
+            config.vm.box = "ubuntu/focal64"    
         end
+        # copy ubuntu/focal64 
 
     - Create new folder <new-folder i called worpress>
     - cd wordpress
