@@ -273,4 +273,4 @@
     - systemctl restart nginx
     
 
-############################ All VM'S are installed and configured ###########################
+############################ All services on the VM'S are installed and configured ###########################
