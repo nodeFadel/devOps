@@ -75,7 +75,7 @@ Once you grasp the info about installation and configuration go to vagrant box a
             - Then observe that every command finish with semi-colon, paste the four commands in the terminal one by one.
 
 
-    ## configure WordPress to connect to the database
+    ## Fifth configure WordPress to connect to the database
         Now, how does wordpress where is the database, what is the user name and password.
         - After copying to notepad paste to terminal some need to be change:
             - sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
@@ -91,7 +91,7 @@ Once you grasp the info about installation and configuration go to vagrant box a
             - search down for 8 lines start with define remove them and paste the lact copied ones.  Save and exit.
             
 
-    ## Configure WordPress
+    ## Sixth Configure WordPress
         - ip addr show (get the ip address if not remembered)
         - open it in new window.  ( you should see the wordpress setup).
 
