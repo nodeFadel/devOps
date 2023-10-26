@@ -91,16 +91,16 @@ Once you grasp the info about installation and configuration go to vagrant box a
             - search down for 8 lines start with define remove them and paste the lact copied ones.  Save and exit.
             
 
-        ## Configure WordPress
-            - ip addr show (get the ip address if not remembered)
-            - open it in new window.  ( you should see the wordpress setup).
+    ## Configure WordPress
+        - ip addr show (get the ip address if not remembered)
+        - open it in new window.  ( you should see the wordpress setup).
 
-            - continue for english
-            - site title: ex: devops
-            - username: ex: your-name
-            - password: ex: vtj85XJ!SXuU6c4   as mentioned ready password-needed to login.
-            - emailadd: ex: fadel@opsdev.com  
-            - Install WordPress
+        - continue for english
+        - site title: ex: devops
+        - username: ex: your-name
+        - password: ex: vtj85XJ!SXuU6c4   as mentioned ready password-needed to login.
+        - emailadd: ex: fadel@opsdev.com  
+        - Install WordPress
         
 
 
