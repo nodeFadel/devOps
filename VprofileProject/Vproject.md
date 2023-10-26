@@ -12,3 +12,5 @@
     e. Nginx
     f. App Build & Deploy
 7. Verify from browser
+
+
