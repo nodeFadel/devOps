@@ -62,7 +62,7 @@ Once you grasp the info about installation and configuration go to vagrant box a
         - Relaod the apache2 service: sudo service apache2 reload
         - ls -l /etc/apache2/sites-available/  (to see the config files and configuration file is inside wordpress.conf).
 
-        ## Fourth configure the database (should be more carefull in this stage)
+    ## Fourth configure the database (should be more carefull in this stage)
         - copy to notepad:
             - sudo mysql -u root   (logging to sql as root user)
             - CREATE DATABASE wordpress;   ( create the database named worpress)
@@ -75,7 +75,7 @@ Once you grasp the info about installation and configuration go to vagrant box a
             - Then observe that every command finish with semi-colon, paste the four commands in the terminal one by one.
 
 
-        ## configure WordPress to connect to the database
+    ## configure WordPress to connect to the database
         Now, how does wordpress where is the database, what is the user name and password.
         - After copying to notepad paste to terminal some need to be change:
             - sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
