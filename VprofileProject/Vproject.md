@@ -93,7 +93,6 @@
     - firewall-cmd --reload
     - systemctl restart mariadb
 
-##########################################################################################
 
 # MEMCACHE SETUP
 
@@ -122,7 +121,6 @@
     - firewall-cmd --runtime-to-permanent
     - sudo memcached -p 11211 -U 11111 -u memcached -d
 
-##########################################################################################
 
 # RABBITMQ SETUP
     Login to the RabbitMQ vm
@@ -157,7 +155,7 @@
     - sudo systemctl enable rabbitmq-server
     - sudo systemctl status rabbitmq-server
 
-##########################################################################################
+
 
 # TOMCAT SETUP
 
@@ -247,7 +245,8 @@
     - chown tomcat.tomcat /usr/local/tomcat/webapps -R
     - systemctl restart tomcat
 
-##########################################################################################
+
+
 # NGINX SETUP
 
     Login to the Nginx vm
