@@ -1,17 +1,16 @@
 # RoadMap:
-1. Setup tools mentioned in Prerequisite Video
-2. Clone source code
-3. cd into the vagrant dir
-4. Bring up Vm's
-5. Validate
-6. Setup All the services
+1. Clone source code
+2. cd into the vagrant dir
+3. Bring up Vm's
+4. Validate
+5. Setup All the services
     a. Mysql
     b. Memcached
     c. Rabbit MQ
     d. Tomcat
     e. Nginx
     f. App Build & Deploy
-7. Verify from browser
+76. Verify from browser
 
  ## If you dont have vagrant plugin install it
     - vagrant plugin install vagrant-hostmanager
