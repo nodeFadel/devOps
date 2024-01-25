@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.56.29"
+  config.vm.network "private_network", ip: "192.168.56.13"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -93,17 +93,17 @@ Vagrant.configure("2") do |config|
    
    cat > /etc/apache2/sites-available/wordpress.conf <<EOF
 <VirtualHost *:80>
-       DocumentRoot /srv/www/wordpress
-       <Directory /srv/www/wordpress>
-           Options FollowSymLinks
-           AllowOverride Limit Options FileInfo
-           DirectoryIndex index.php
-           Require all granted
-       </Directory>
-       <Directory /srv/www/wordpress/wp-content>
-           Options FollowSymLinks
-           Require all granted
-       </Directory>
+          DocumentRoot /srv/www/wordpress
+          <Directory /srv/www/wordpress>
+              Options FollowSymLinks
+              AllowOverride Limit Options FileInfo
+              DirectoryIndex index.php
+              Require all granted
+          </Directory>
+          <Directory /srv/www/wordpress/wp-content>
+              Options FollowSymLinks
+              Require all granted
+          </Directory>
 </VirtualHost>
 EOF
    

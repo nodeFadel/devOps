@@ -36,12 +36,12 @@ Once you grasp the info about installation and configuration go to vagrant box a
         - hostname wordpress ---> exit and ssh again to take place.
 
     ## First go to the link and install dependencies 
-    DONT COPY AND PASTE DIRECTLY ON A TERMINAL, copy them in anot pad and then to the terminal.
+    DONT COPY AND PASTE DIRECTLY ON A TERMINAL, copy them in to a not-pad or text-file and then to the terminal.
     - run first: sudo apt update
     - second: At the end of php-zip add -y: php-zip -y | then copy all and paste in terminal to install.
     
     ## Second install WordPress
-    Copy and Paste this in the notepad : 
+    Copy and Paste this in the text-file : 
         sudo mkdir -p /srv/www
         sudo chown www-data: /srv/www
         curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
@@ -55,7 +55,7 @@ Once you grasp the info about installation and configuration go to vagrant box a
         - vim /etc/apache2/sites-available/wordpress.conf   (wordpress file when you save the file will be created)
         - copy the content from the website: https://ubuntu.com/tutorials/install-and-configure-wordpress#4-configure-apache-for-wordpress
         - Paste the content in the vim wordpress.conf
-        - copy the followed commands in anotepad before pasting them to the terminal:
+        - copy the followed commands in text-file before pasting them to the terminal:
             sudo a2ensite wordpress   (enable wordpress site)
             sudo a2enmod rewrite        (Set the redirect rule)
             sudo a2dissite 000-default   (disable apache default web page)
