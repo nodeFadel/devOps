@@ -17,22 +17,22 @@
     - vagrant plugin install vagrant-hostmanager
         - example what will get when we run: cat /etc/hosts
                 ## vagrant-hostmanager-start
-                        192.168.56.12   app01
+                        192.x.x.12   app01
 
-                        192.168.56.15   db01
+                        192.x.x.15   db01
 
-                        192.168.56.14   mc01
+                        192.x.x.14   mc01
 
-                        192.168.56.13   rmq01
+                        192.x.x.13   rmq01
 
-                        192.168.56.11   web01
+                        192.x.x.11   web01
 
                 ## vagrant-hostmanager-end
             ** NOTE: All the services connect by name so that they get the ip depending of the name from vagrant-hostmanager. (thus we put as global variable in vagrantfile in the begining).
     
  ## Write the multi vagrant vms in vagrantfile
     - MYSQL Database 
-    - Memcache (DB cACHING SVC)
+    - Memcache (DB CACHING SVC)
     - RabbitMQ (Broker/Queue SVC)
     - Tomcat (Application SVC)
     - Nginx (Web SVC)
