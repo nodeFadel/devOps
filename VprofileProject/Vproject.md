@@ -16,15 +16,15 @@
     - vagrant plugin install vagrant-hostmanager
         - example what will get when we run: cat /etc/hosts
                 ## vagrant-hostmanager-start
-                        192.x.x.12   app01
+                        192.x.x.30   app01
 
-                        192.x.x.15   db01
+                        192.x.x.31   db01
 
-                        192.x.x.14   mc01
+                        192.x.x.32   mc01
 
-                        192.x.x.13   rmq01
+                        192.x.x.33   rmq01
 
-                        192.x.x.11   web01
+                        192.x.x.34   web01
 
                 ## vagrant-hostmanager-end
             ** NOTE: All the services connect by name so that they get the ip depending of the name from vagrant-hostmanager. (thus we put as global variable in vagrantfile in the begining).
