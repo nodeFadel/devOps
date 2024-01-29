@@ -1,3 +1,4 @@
+
 ## If you dont have vagrant plugin install it
     - vagrant plugin install vagrant-hostmanager
         - example what will get when we run: cat /etc/hosts
