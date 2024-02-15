@@ -28,6 +28,7 @@ Make sure the partition formated and mounted then install the service.
 
 ## Snapshots:
 Before losing data take a snapshot.
+
     - Go to volumes and click on the volume you want to take snapshot then on actions and click create snapshot in aws console.
     - Right the name then click create snapshot then observe the completed check in snapshots.
     - In instance go to /var/lib/mysql and remoce files as incident assume removed as mistake.
